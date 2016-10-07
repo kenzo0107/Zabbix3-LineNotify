@@ -57,12 +57,10 @@ item_id=$(echo "${message}" | grep 'ITEM_ID:' | awk -F'ITEM_ID: ' '{print $2}' |
 
 # Line Notify notice message.
 notice="
-${sbject}
-Host: ${host}
-Date Time: ${datetime}
-Status: ${trigger_status}
-${item_name} : ${item_value}
-
-${trigger_url}"
+${subject}
+[Host] ${host}
+[Date Time] ${datetime}
+[Status] ${trigger_status}
+${item_name}: ${item_value}"
 
 curl https://notify-api.line.me/api/notify -H "Authorization: Bearer ${TOKEN}" -d "message=${notice}"
