@@ -1,6 +1,8 @@
 # Zabbix3-LineNotify
 Line Notify Notification from Zabbix 3.x
 
+![Imgur](http://i.imgur.com/6B554NX.png)
+
 ## Env
 - Zabbix 3.0
 - CentOS Linux release 7.2.1511 (Core)
@@ -19,4 +21,4 @@ Line Notify Notification from Zabbix 3.x
 ![Imgur](http://i.imgur.com/mE5dEXI.png)
 
 ### Users > Media
-[Imgur](http://i.imgur.com/ovDFnTq.png)
+![Imgur](http://i.imgur.com/ovDFnTq.png)
